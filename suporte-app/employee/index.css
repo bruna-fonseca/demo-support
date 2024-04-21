@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.chamado {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    padding: 20;
+    background: rgb(219, 206, 206);
+}
+
+.chamado button {
+    margin-top: 20px;
+    height: 50px;
+}
