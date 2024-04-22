@@ -61,5 +61,5 @@ window.addEventListener("load", async () => {
       body: JSON.stringify({ finalizado: true, resposta }),
     });
 
-    criarChamados();
+    location.reload();
   };
